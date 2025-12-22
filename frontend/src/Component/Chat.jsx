@@ -8,8 +8,10 @@ const Chat = () => {
             <div className='w-40 p-5 bg-red-100 mt-12 ml-5 rounded-xl'>
             </div>
 
+
             <div className='w-40 p-5  bg-green-100 mt-5 ml-40 rounded-xl'>
             </div>
+
 
             <div className='mt-85 flex flex-col gap-2 items-start justify-center'>
                 
