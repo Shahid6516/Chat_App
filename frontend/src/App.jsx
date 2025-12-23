@@ -38,6 +38,7 @@ function App() {
         onChange={(e) => setMessage(e.target.value)}
         placeholder="Type message..."
       />
+      
       <button onClick={sendMessage}>Send</button>
     </div>
   );
