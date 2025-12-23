@@ -14,15 +14,15 @@ const Chat = () => {
 
 
             <div className='mt-85 flex flex-col gap-2 items-start justify-center'>
-                
 
-                <textarea className='w-[80%] auto text-md px-3  ml-2 relative border-1 rounded-xl'  name="text-area" id="text-area" placeholder='Pleasae type your message...'>
+
+                <textarea className='w-[80%] auto text-md px-3  ml-2 relative border-1 rounded-xl' name="text-area" id="text-area" placeholder='Pleasae type your message...'>
 
                 </textarea>
 
                 <button className='bg-amber-500 rounded-md px-1 py-1 absolute left-200'>Send</button>
 
-              
+
             </div>
 
         </div>
