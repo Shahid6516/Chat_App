@@ -32,6 +32,7 @@ function App() {
           <p key={index}>{msg}</p>
         ))}
       </div>
+      
 
       <input
         value={message}
