@@ -12,7 +12,7 @@ function App() {
     socket.emit("send_message", message);
     setMessage("");
   };
-
+  
   useEffect(() => {
     socket.on("receive_message", (data) => {
       setMessages((prev) => [...prev, data]);
